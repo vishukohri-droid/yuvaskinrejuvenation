@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h2>Contact Us</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<h3>Book Appointment</h3>
+
+<form onsubmit="sendWA(); return false;">
+<input id="name" placeholder="Name" required>
+<input id="phone" placeholder="Phone" required>
+
+<select id="service">
+<option>Hydra Facial</option>
+<option>Hair Treatment</option>
+<option>Laser</option>
+</select>
+
+<button type="submit">Send WhatsApp</button>
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
